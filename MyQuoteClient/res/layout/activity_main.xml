@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" 
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:text="Bind"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/get_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:text="Get Message"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/un_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_default"
+        android:text="UnBind"
+        android:gravity="center" />
+
+</LinearLayout>
